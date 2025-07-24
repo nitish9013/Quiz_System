@@ -21,15 +21,15 @@ Built following industry best practices in API design, error handling, and data 
 
 | Layer           | Technology                     |
 |----------------|---------------------------------|
-| Language        | Java (JDK 17+)                 |
+| Language        | Java (JDK 21)                 |
 | Framework       | Spring Boot                    |
 | API Design      | Spring MVC / JAX-RS (Jersey)   |
 | Database        | **PostgreSQL**                 |
 | ORM             | Hibernate ORM                  |
 | Build Tool      | Maven                          |
 | Server          | Apache Tomcat 11               |
-| IDE             | Eclipse / IntelliJ             |
-| Tools           | Postman / Swagger (optional)   |
+| IDE             |  IntelliJ             |
+| Tools           | Postman    |
 
 ---
 
@@ -63,9 +63,9 @@ quiz-system/
 | `PUT`  | `/api/quiz/{id}`        | Update quiz                      |
 | `DELETE` | `/api/quiz/{id}`      | Delete quiz                      |
 
-🔐 Optional: Secure admin routes using Spring Security and role-based access.
 
----
+
+
 
 ## ⚙️ Setup Instructions
 
